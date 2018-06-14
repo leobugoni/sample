@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="vraptor-produtos" />
+          <element id="module-output" name="sample" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: br.com.caelum:vraptor:4.0.0.Final" />
@@ -47,7 +47,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/vraptor-produtos/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="vraptor-produtos/web/Web" />
+      <element id="javaee-facet-resources" facet="sample/web/Web" />
     </root>
   </artifact>
 </component>

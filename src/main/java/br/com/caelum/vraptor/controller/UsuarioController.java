@@ -1,7 +1,7 @@
 package br.com.caelum.vraptor.controller;
 
 import br.com.caelum.vraptor.Controller;
-import br.com.caelum.vraptor.Get;
+import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Result;
 
 import javax.inject.Inject;
@@ -12,7 +12,7 @@ public class UsuarioController {
 	@Inject
 	private Result result;
 
-	@Get("/login")
+	@Path("/login")
 	public void login() {
 		result.include("login", "Fazer Login Aqui");
 	}
